@@ -2365,7 +2365,7 @@
             }
 
             //centering it
-            nav.css('margin-left', '-' + (nav.width()/2) + 'px');
+            nav.attr('style', 'margin-left:' + (nav.width()/2) + 'px!important');
 
             nav.find('li').first().find('a').addClass(ACTIVE);
         }
